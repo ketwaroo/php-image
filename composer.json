@@ -9,6 +9,7 @@
         }
     ],
     "require": {
+        "ext-imagick":"*"
     },
     "require-dev": {
         "ketwaroo/debug-helper": "dev-master"
