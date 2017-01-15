@@ -30,10 +30,7 @@ class Image extends \Imagick
 
     public function __destruct()
     {
-        foreach ($this as $f)
-        {
-            $f->clear();
-        }
+        $this->clear();
     }
 
     public function readimage($filename)
