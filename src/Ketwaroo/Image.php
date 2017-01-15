@@ -7,7 +7,9 @@
  */
 
 namespace Ketwaroo;
+
 use Ketwaroo\Dimension\Box;
+
 /**
  * Description of Image
  *
@@ -25,7 +27,15 @@ class Image extends \Imagick
             $f->autoRotateImage();
         }
     }
-    
+
+    public function __destruct()
+    {
+        foreach ($this as $f)
+        {
+            $f->clear();
+        }
+    }
+
     public function readimage($filename)
     {
         $return = parent::readimage($filename);
