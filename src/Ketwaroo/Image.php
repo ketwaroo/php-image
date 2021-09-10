@@ -13,7 +13,7 @@ use Ketwaroo\Dimension\Box;
 /**
  * Description of Image
  *
- * @author Yaasir Ketwaroo<ketwaroo.yaasir@gmail.com>
+ * @author Yaasir Ketwaroo
  */
 class Image extends \Imagick
 {

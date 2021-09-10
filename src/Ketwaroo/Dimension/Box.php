@@ -5,7 +5,7 @@ namespace Ketwaroo\Dimension;
 /**
  * 1x1 minimum box
  *
- * @author Yaasir Ketwaroo<ketwaroo.yaasir@gmail.com>
+ * @author Yaasir Ketwaroo
  */
 class Box
 {
